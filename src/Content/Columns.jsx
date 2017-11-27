@@ -6,6 +6,7 @@ export const Columns = [
     key: 'name',
     name: 'Member Name',
     type: 'text',
+    helpText: 'Name of Human',
     renderCell: ({ value }) => (<h3>{value}</h3>),
     // width: '200px'
   },
@@ -38,6 +39,7 @@ export const Columns = [
   {
     key: 'songYear',
     name: 'Featured Song Year',
+    helpText: 'Year in which the featured song was released as part of an album.',
     // width: '140px',
     style: { textAlign: 'center', fontSize: '2em' }
   }
